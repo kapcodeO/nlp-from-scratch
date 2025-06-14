@@ -17,4 +17,40 @@ Which are currently dominating the Market with products like:
 
 And many more ...
 
+# ⚙️ Environment Setup Guide (Windows, macOS, Linux)
+
+This guide will help you set up a clean Python environment with the required libraries for data science and machine learning projects.
+
+---
+
+## 📦 Required Packages
+
+- `pandas`  
+- `numpy`  
+- `scikit-learn`  
+- `matplotlib`
+
+You can use either **Conda** or a standard **Python virtual environment (venv)**.
+
+---
+
+## 🐍 Option 1: Using Conda (Recommended)
+
+### ✅ Step-by-Step Instructions
+
+```bash
+# Step 1: Create a new conda environment named "nlp"
+conda create -n nlp python=3.10 -y
+
+# Step 2: Activate the environment
+# Windows
+conda activate nlp
+
+# macOS/Linux
+source activate nlp
+
+# Step 3: Install required libraries
+conda install pandas numpy scikit-learn matplotlib -y
+
+```
 
