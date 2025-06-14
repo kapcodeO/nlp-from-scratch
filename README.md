@@ -54,3 +54,25 @@ conda install pandas numpy scikit-learn matplotlib -y
 
 ```
 
+## 🖊️ Option 2: Using Python Virtual Environment (venv)
+
+```bash
+# Step 1: Create a virtual environment named "nlp"
+python3 -m venv nlp
+
+# Step 2: Activate the environment
+# Windows (Command Prompt)
+nlp\Scripts\activate
+
+# macOS/Linux
+source nlp/bin/activate
+
+# Step 3: Upgrade pip
+pip install --upgrade pip
+
+# Step 4: Install required packages
+pip install pandas numpy scikit-learn matplotlib
+
+
+```
+
